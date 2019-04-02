@@ -1,0 +1,9 @@
+$color: #345
+body
+	background-color: $color
+	@media screen and (max-width: 400px)
+		background-color: darken($color, 20%)
+h1
+	@media screen and (max-width: 400px)
+		color: darken($color, 20%)
+		display: flex
